@@ -69,8 +69,7 @@ def main():
     # only use the first set of grabber, buffer and logger
     image_logger = ImageLogger(frameGrabber=fg[0], imageBuffer=im[0], device=devs[0])
     status_logger.info("start saving data stream to file")
-    num_frames = image_logger.save_data_stream(streams=["o3r"], formats=["O3R-38k"], num_sensors=2, write_index=True,
-                                               numSeconds=args.numSeconds)
+    num_frames = image_logger.save_data_stream(streams=['o3r',], num_sensors=1, write_index=True, numSeconds=args.numSeconds, desc="example data set")
     status_logger.info("stop saving data stream to file")
     status_logger.info("{} frames saved".format(num_frames))
 
