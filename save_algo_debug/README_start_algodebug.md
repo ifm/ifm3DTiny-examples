@@ -1,3 +1,6 @@
+Disclaimer: ifm's support team provides code examples and helper scripts with the idea of accelerating the development process for customers.
+We do not guarantee that these scripts will be updated to reflect the lifecycle of ifm's various software packages.
+
 # How to run `start_algodebug.py`
 The python script `start_algodebug` is designed to be run on CLI level. It provides a further layer of simplification around the `ifmO3r` python packages functions.  
 

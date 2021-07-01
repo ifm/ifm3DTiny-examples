@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright (C) 2021 ifm electronic gmbh, CSR
 #
-# THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+# ifm's support team provides code examples and helper scripts with the idea of accelerating the development process for customers.
+# We do not guarantee that these scripts will be updated to reflect the lifecycle of ifm's various software packages.
 
 from ifmO3r.ifm3dTiny import ImageLogger, FrameGrabber, ImageBuffer, Device
 import argparse
